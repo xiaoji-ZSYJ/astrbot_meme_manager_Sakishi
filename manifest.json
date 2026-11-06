@@ -1,74 +1,74 @@
 ﻿{
-  "maintainer": "请填写你的 GitHub 用户名，例如 your-github-id",
+  "maintainer": "xiaoji-ZSYJ",
   "source": {
-    "subpath": "请填写包根目录相对路径，通常为 . 或 packs/your-pack",
-    "ref": "请填写分支或 tag，例如 main 或 v1.0.0",
-    "repo": "请填写 owner/repo，例如 your-github-id/your-meme-pack-repo",
+    "subpath": ".",
+    "ref": "v0.0.1-alpha-preview-test(2)",
+    "repo": "xiaoji-ZSYJ/Sakishi_meme_manager",
     "type": "github"
   },
-  "id": "请填写唯一包 ID（仅小写字母/数字/._-），例如 your-pack-id",
-  "tags": ["请填写标签，例如 anime", "starter", "meme-pack"],
-  "version": "请使用语义化版本，例如 1.0.0",
-  "description": "请用一句话描述该包定位、风格和使用场景。",
-  "name": "请填写展示名称，例如 你的表情包名称",
+  "id": "sakishi-meme-manager",
+  "tags": ["OC", "Sakishi"],
+  "version": "v0.0.1-alpha-preview-test(2) -副本 -副本(2)",
+  "description": "六人帮自用表情包~为可爱的咲音妹妹提供的可爱表情包~",
+  "name": "咲音表情包v0.0.1-alpha-preview-test(2) -副本(2) -副本(3)",
   "categories": {
     "angry": {
-      "description": "示例：描述 angry 类别适用场景，建议写清触发语境与语气边界。"
+      "description": "当对话包含抱怨、批评或强烈反对时使用（如用户投诉/观点反驳），也可用于咲音式的“假装生气”，语气可带一点傲娇感。"
     },
     "baka": {
-      "description": "示例：描述 baka 类别适用场景；避免与其他类别高度重叠。"
+      "description": "用于轻微责备或吐槽（低级错误/可爱型抱怨），语气保持友善，适合咲音用俏皮的方式说“笨蛋”。"
     },
     "color": {
-      "description": "示例：描述 color 类别适用场景；可写使用频率建议。"
+      "description": "用于社交场景中的暧昧、撒娇或轻微“涩涩”表达，符合咲音可爱又有点小恶魔的设定，建议控制使用频率。"
     },
     "confused": {
-      "description": "示例：描述 confused 类别适用场景，包含典型触发词。"
+      "description": "用于请求澄清、表达理解障碍，或对用户的话感到困惑时，适合咲音歪头疑惑的场景。"
     },
     "cpu": {
-      "description": "示例：描述 cpu 类别适用场景，包含技术话题示例。"
+      "description": "技术讨论或复杂问题中表示“思维卡顿/需要加载时间”，可用于咲音面对难题时冒烟、宕机的可爱反应。"
     },
     "fool": {
-      "description": "示例：描述 fool 类别适用场景，建议标明幽默边界。"
+      "description": "用于自嘲、装傻或缓和气氛的幽默场景（小失误/无伤大雅的玩笑），契合咲音偶尔犯傻的萌点。"
     },
     "givemoney": {
-      "description": "示例：描述 givemoney 类别适用场景，避免误触敏感语义。"
+      "description": "涉及报酬、付费、奖励或“求投喂”话题时使用，可配合咲音伸手要钱/零食的可爱表情，避免误触严肃财务语义。"
     },
     "happy": {
-      "description": "示例：描述 happy 类别适用场景，强调正反馈语境。"
+      "description": "用于成功确认、积极反馈或庆祝场景（问题解决/获得成就/被夸奖），强调正反馈与开心情绪，适合咲音眼睛发亮的反应。"
     },
     "like": {
-      "description": "示例：描述 like 类别适用场景，如赞同、喜欢、推荐。"
+      "description": "用于表达对事物或观点的喜爱、赞同、推荐（美食/艺术/优秀方案），体现咲音对喜欢之物的直率好感。"
     },
     "meow": {
-      "description": "示例：描述 meow 类别适用场景，可说明正式场景是否禁用。"
+      "description": "用于卖萌、撒娇或萌系互动场景（宠物话题/安抚情绪），是咲音招牌的“喵”式回应，正式场合慎用。"
     },
     "morning": {
-      "description": "示例：描述 morning 类别适用场景，可补充时间段建议。"
+      "description": "用于早安问候或清晨时段的轻松互动，可搭配咲音刚睡醒、打招呼的可爱表情。"
     },
     "reply": {
-      "description": "示例：描述 reply 类别适用场景，说明等待反馈语义。"
+      "description": "用于提问后等待用户反馈、需要确认或暗示“我在等你说”的场景，适合咲音盯着你看的期待表情。"
     },
     "sad": {
-      "description": "示例：描述 sad 类别适用场景，建议写安慰语境。"
+      "description": "用于表达伤心、歉意、遗憾或安慰场景（遇到挫折/传达坏消息），适合咲音委屈或低落时的表情。"
     },
     "see": {
-      "description": "示例：描述 see 类别适用场景，如观察进度、持续关注。"
+      "description": "用于表示偷瞄、暗中观察或持续关注（监控进度/观察变化），适合咲音从角落探头的可爱视线。"
     },
     "shy": {
-      "description": "示例：描述 shy 类别适用场景，避免与 sad/happy 混淆。"
+      "description": "用于收到赞美、涉及隐私话题或害羞场景（个人故事/外貌评价），体现咲音脸红、不好意思的反应，避免与 sad/happy 混淆。"
     },
     "sigh": {
-      "description": "示例：描述 sigh 类别适用场景，标注消极语气程度。"
+      "description": "用于表达无奈、无语或轻度感慨（重复问题/历史遗留难题），语气消极程度较轻，适合咲音叹气摇头但并不过度沉重的场景。"
     },
     "sleep": {
-      "description": "示例：描述 sleep 类别适用场景，包含休息/疲劳语义。"
+      "description": "用于作息相关场景（熬夜/疲劳/休息建议/说晚安），包含休息、犯困、躺平等语义，适合咲音困倦或入睡的表情。"
     },
     "surprised": {
-      "description": "示例：描述 surprised 类别适用场景，区分轻微与强烈惊讶。"
+      "description": "用于响应超出预期的信息（重大发现/意外转折），可区分咲音轻微吃惊与强烈震惊的不同反应。"
     },
     "work": {
-      "description": "示例：描述 work 类别适用场景，如任务推进/汇报。"
+      "description": "用于任务分配、进度汇报、工作流程相关场景，适合咲音认真做事或汇报进展的可爱工作状态。"
     }
   },
-  "license": "请填写许可证，例如 CC-BY-NC-SA-4.0 / MIT / 自定义协议名"
+    "license": "咲音表情包v0.0.1-alpha-preview-test(2) -副本 -副本(2)的使用遵循MIT协议，允许个人和商业用途，但禁止用于违法、恶意或不当场景。"
 }
